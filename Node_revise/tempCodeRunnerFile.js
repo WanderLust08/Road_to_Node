@@ -1,0 +1,1 @@
+const res = fs.readFileSync("./test.txt","utf-8");
