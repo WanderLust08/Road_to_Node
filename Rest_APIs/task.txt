@@ -1,0 +1,24 @@
+REST API - JSON
+
+( In case the client is a BROWSER, we are rendering the HTML document on the server side and sending the entire 
+ HTML document in response rather than just the JSON )
+GET/users - HTML document render
+
+( We are using /api in case of sending teh data in JSON format )
+GET/api/users - List all users
+
+
+GET/api/users/1 - Get the user with id 1
+GET/api/users/2 - Get the user with id 2
+
+Dynamic Path Parameters
+GET/users/:id 
+:id -> Dynamic Variable
+
+
+
+POST/api/users - Create the new user
+
+PATCH/api/users/1 - Edit the user with id 1
+
+DELET/api/users/1 - Delete user with id 1 
